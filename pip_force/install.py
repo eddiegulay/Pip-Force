@@ -2,6 +2,7 @@ import sys
 import subprocess
 
 def install_requirements(file_path):
+    if file_path is None: file_path = "requirements.txt"
     with open(file_path, 'r') as f:
         for line in f:
             requirement = line.strip()

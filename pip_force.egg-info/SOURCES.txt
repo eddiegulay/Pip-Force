@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pip_force/__init__.py
+pip_force/install.py
+pip_force.egg-info/PKG-INFO
+pip_force.egg-info/SOURCES.txt
+pip_force.egg-info/dependency_links.txt
+pip_force.egg-info/entry_points.txt
+pip_force.egg-info/top_level.txt
+tests/test_install.py
